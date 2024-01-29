@@ -1,0 +1,106 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero {
+    background-color: #1F2937;
+    height: 450px;      /* This is the height of the top "hero" section */
+}
+
+.navbar {
+    display: flex;
+    justify-content:space-between;
+    margin: 0 15%;
+    padding: 30px;
+    color: #E5E7EB;
+}
+
+.logo {
+    color: F9FAF8;
+    font-size: 24px;
+}
+
+a {
+    color: #E5E7EB;
+    padding: 0 10px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.herobar {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 15%;
+    padding: 30px;
+}
+
+.left-hero {
+    width: 35%;
+}
+
+.right-hero {
+    display: flex;
+    width: 450px;
+    height: 175px;
+    background-color: darkgrey;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.button-1 {
+    margin-top: 5px;
+    background-color: #3882F6;
+    width: 80px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    color: #E5E7EB;
+    font-weight: bold;
+}
+
+.random {
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.random-head {
+    color: #1F2937;
+    font-size: 36px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.boxes {
+    display: flex;    
+}
+
+.box {
+    border: 2px solid #3882F6;
+    width: 100px;
+    height: 100px;
+    margin: 0 30px;
+    border-radius: 5px;
+}
+
+.box-text {
+    display: flex;
+    margin-top: 20px;
+    width: 600px;
+}
